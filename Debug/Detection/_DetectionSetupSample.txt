@@ -1,0 +1,26 @@
+==DetectionSetup==
+DetectionType:SGS;
+NoOfWD:001;	No. of the drum
+TypeOfWD:Steel400L;	Type of the drum
+GWDD:70;	Diameter of the drum
+GWDH:105;	Height of the drum
+GHPGDX:60;	Initial x-coordinate of the inelt of HPGe detector
+GHPGDY:0;	Initial y-coordinate of the inelt of HPGe detector
+GHPGDZ:5.25;	Initial z-coordinate of the inelt of HPGe detector
+DSNumY:3.5;	Times of transtation
+DSNumZ:10;	Number of segments
+DSNumA:1;	Times of rotation
+DSLY:4;	Step length of transtation
+DSLZ:10.5;	Step length of rise
+DSLA:0;	Step length of rotation
+DSigleT:60;	Period of single detection
+VORotation:10;	Velocity of rotation,min-1
+IsTransmission:0;Is transmission detection carried out
+WeightOfDrum:404;Weight of Waste drum
+TypeOfIteration:1;
+MaxIteration:500;
+NuGridsX:1;
+NuGridsY:8;
+NuGridsZ:10;
+IsEqualVolumeOfGrids:0;
+==END==

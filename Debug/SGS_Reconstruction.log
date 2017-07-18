@@ -1,0 +1,21 @@
+﻿Build started 2017/7/15 9:52:00.
+     1>Project "E:\TGS\400L\AnalogueDetection_400L\SGS_Reconstruction.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (.\Debug\) contains files shared from another project (SGS_Reconstruction.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp".\Debug\SGS_Reconstruction.pch" /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AnalogDetectionCalculation.cpp
+         AnalogDetectionCalculation.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug\SGS_Reconstruction.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:".\Debug\SGS_Reconstruction.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Debug\SGS_Reconstruction.lib" /MACHINE:X86 /SAFESEH .\Debug\SGS_Reconstruction.res
+         .\Debug\AnalogDetectionCalculation.obj
+         .\Debug\ReadSource.obj
+         .\Debug\SGS_Reconstruction.obj
+         .\Debug\SGS_ReconstructionDlg.obj
+         .\Debug\StdAfx.obj
+         .\Debug\TriData.obj
+     1>AnalogDetectionCalculation.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         SGS_Reconstruction.vcxproj -> E:\TGS\400L\AnalogueDetection_400L\.\Debug\SGS_Reconstruction.exe
+     1>Done Building Project "E:\TGS\400L\AnalogueDetection_400L\SGS_Reconstruction.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.51
